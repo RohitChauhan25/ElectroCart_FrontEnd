@@ -151,8 +151,6 @@ function Header() {
     navigate('/login')
   }
 
-  console.log(collapsed)
-
   return (
     <Container className={path === '/' ? '' : 'white-back'}>
       <LogoWrapper onClick={() => navigate('/')}>

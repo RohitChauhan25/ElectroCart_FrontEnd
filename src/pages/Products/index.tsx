@@ -195,8 +195,6 @@ const Products = () => {
     setFilterBy({ ...filterBy, page: e })
   }
 
-  console.log(filterBy)
-
   return (
     <Container>
       <TopSection>

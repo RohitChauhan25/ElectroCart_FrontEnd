@@ -39,8 +39,6 @@ import { Link, useNavigate } from 'react-router-dom'
 function Banner() {
   const navigate = useNavigate()
 
-  console.log(navigate)
-
   return (
     <SliderWrap>
       <EarbudsSection>
