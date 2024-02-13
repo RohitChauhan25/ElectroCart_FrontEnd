@@ -163,7 +163,7 @@ export const ResponsiveMenu = styled.div`
   left: -250px;
   width: 250px;
   background-color: #eeffff;
-  min-height: 100vh;
+  height: 100vh;
   transition: 500ms ease;
   overflow: scroll;
   ul {
